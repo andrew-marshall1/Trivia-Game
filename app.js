@@ -70,7 +70,7 @@ $(document).ready(function(){
       }
   
       // add a Done button to the end of the page and register its click handler
-      var doneButton = '<button class="btn btn-primary" id="done-button" type="submit">Done</button>';
+      var doneButton = '<button class="btn btn-dark" id="done-button" type="submit">Done</button>';
       divContainer.append(doneButton);
       $("#done-button").on("click", game.stopTimer);
     },
