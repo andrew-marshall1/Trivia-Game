@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="C:\Users\andre\Desktop\style.css">
+  
+</head>
+
+<body>
+
+  <div class="container" id="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="https://iowahawkeyedecals.com/images/large/Iowa-Hawkeyes-1-vinyl-decal.JPG" class="img-fluid text-center" id="main-logo">
+        <h1 class="display">Iowa Hawkeye Trivia Game</h1>
+        <b><hr></b>
+      </div>
+    </div>
+    <div>
+      
+      <div class="row" id="torso">
+        <div class="col-md-4">
+          <img src="https://localtvwqad.files.wordpress.com/2013/02/university-of-iowa.jpg?quality=85&strip=all"
+            class="img-fluid text-center" id="hound" alt="hound">
+          <div>
+            <h3 id="timer"></h3>
+          </div>
+        </div>
+
+
+        <!-- <div class="offset-md-1"></div> -->
+
+        <div class="col-md-7">
+          <div id="start-page" class="start-page-text">
+            <h2>"We always have and we always will… Fight For Iowa!"</h2>
+            <p>Test your knowledge of Iowa Hawkeye Football with this multiple choice trivia game. You have 90 seconds to answer all
+              twelve questions, the game will automatically end when time has elapsed. Good luck!</p>
+            <div class="btn btn-primary" id="start-btn">Start
+            </div>
+          </div>
+
+          <div>
+            <div id="questions-box">
+            </div>
+          </div>
+
+          <div class="hidden" id="end-page">
+            <h2>Here are your scores:</h2>
+            <p id="correct-answers"></p>
+            <p id="incorrect-answers"></p>
+            <p id="unanswered"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <span class="text-center">
+        <p></p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="C:\Users\andre\Desktop\app.js"></script>
+  <script type="text/javascript" src="C:\Users\andre\Desktop\questions.js"></script>
+</body>
+
+</html>
