@@ -42,7 +42,7 @@ body{
    
    #done-button {
      margin-top: 20px;
-     background: black;
+     background: #bc143c;
    }
  
    #end-page {
@@ -100,8 +100,8 @@ body{
    }
    #timer{
      text-align: center;
-        }
-
+     font-family: 'Permanent Marker', cursive;
+   }
    #questions-box{
      margin-top: 2rem;
    }
