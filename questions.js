@@ -11,12 +11,12 @@ var questionBank =
     correct: "SMU, North Texas"
   },
   {
-    question: "hich team did Iowa defeat in the 1996 and 2001 Alamo Bowls?",
+    question: "Which team did Iowa defeat in the 1996 and 2001 Alamo Bowls?",
     answers: ["Texas", "Texas Tech", "Missouri"],
     correct: "Texas Tech"
   },
   {
-    question: "HWhich quarterback was runner-up for the Heisman Trophy in 2002?",
+    question: "Which quarterback was runner-up for the Heisman Trophy in 2002?",
     answers: ["Nate Stanley", "Chuck Long", "Brad Banks"],
     correct: "Brad Banks"
   },
